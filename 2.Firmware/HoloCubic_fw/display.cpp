@@ -54,7 +54,7 @@ void Display::init()
 	lv_disp_drv_register(&disp_drv);
 }
 
-void Display::runtime()
+void Display::routine()
 {
 	lv_task_handler();
 }

@@ -1,11 +1,11 @@
 #include "display.h"
 #include "imu.h"
+#include "rgb_led.h"
 #include <lv_examples/lv_examples.h>
 
 Display screen;
-
-// MPU6050 accelerator and gyroscope
 IMU mpu;
+Pixel rgb;
 
 void setup()
 {
@@ -16,18 +16,19 @@ void setup()
 
 	mpu.init();
 
+	rgb.init();
+	rgb.setBrightness(0.3).setRGB(0, 122, 204);
 
 	lv_demo_benchmark();
 }
 
-
+int i = 0;
 void loop()
 {
 	// run this as often as possible ¡ý
-	screen.runtime();
+	screen.routine();
 
 	mpu.update();
 
-
-	delay(5);
+	delay(10);
 }

@@ -11,6 +11,6 @@ private:
 
 public:
 	void init();
-	void runtime();
+	void routine();
 	void setBackLight(float);
 };
