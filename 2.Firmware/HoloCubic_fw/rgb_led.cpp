@@ -19,6 +19,7 @@ Pixel& Pixel::setBrightness(float duty)
 {
 	duty = constrain(duty, 0, 1);
 	FastLED.setBrightness((uint8_t)(255 * duty));
+	FastLED.show();
 
 	return *this;
 }

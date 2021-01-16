@@ -1,11 +1,16 @@
 #include "display.h"
 #include "imu.h"
 #include "rgb_led.h"
+#include "ambient.h"
 #include <lv_examples/lv_examples.h>
 
 Display screen;
 IMU mpu;
 Pixel rgb;
+Ambient ambLight;
+
+
+
 
 void setup()
 {
@@ -19,6 +24,8 @@ void setup()
 	rgb.init();
 	rgb.setBrightness(0.3).setRGB(0, 122, 204);
 
+	ambLight.init(ONE_TIME_L_RESOLUTION_MODE);
+
 	lv_demo_benchmark();
 }
 
@@ -29,6 +36,9 @@ void loop()
 	screen.routine();
 
 	mpu.update();
+
+	rgb.setBrightness(ambLight.getLux() / 500.0);
+	Serial.println(ambLight.getLux());
 
 	delay(10);
 }

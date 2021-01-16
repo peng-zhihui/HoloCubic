@@ -30,6 +30,9 @@
     <ClInclude Include="rgb_led.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ambient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="display.cpp">
@@ -39,6 +42,9 @@
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="rgb_led.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ambient.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
