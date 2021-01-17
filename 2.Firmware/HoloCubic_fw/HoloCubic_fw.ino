@@ -9,9 +9,6 @@ IMU mpu;
 Pixel rgb;
 Ambient ambLight;
 
-
-
-
 void setup()
 {
 	Serial.begin(115200);
