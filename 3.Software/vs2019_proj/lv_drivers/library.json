@@ -1,0 +1,13 @@
+{
+    "name": "lv_drivers",
+    "version": "7.6.1",
+    "keywords": "littlevgl, lvgl, driver, display, touchpad",
+    "description": "Drivers for LittlevGL graphics library.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/littlevgl/lv_drivers.git"
+    },
+    "build": {
+        "includeDir": "."
+    }
+}
