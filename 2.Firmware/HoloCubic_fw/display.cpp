@@ -9,6 +9,7 @@ TFT_eSPI tft = TFT_eSPI();
 static lv_disp_buf_t disp_buf;
 static lv_color_t buf[LV_HOR_RES_MAX * 10];
 
+
 void my_print(lv_log_level_t level, const char* file, uint32_t line, const char* fun, const char* dsc)
 {
 	Serial.printf("%s@%d %s->%s\r\n", file, line, fun, dsc);

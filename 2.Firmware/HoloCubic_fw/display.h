@@ -1,3 +1,6 @@
+#ifndef DISPLAY_H
+#define DISPLAY_H
+
 #include <lvgl.h>
 
 #define LCD_BL_PIN 5
@@ -14,3 +17,5 @@ public:
 	void routine();
 	void setBackLight(float);
 };
+
+#endif

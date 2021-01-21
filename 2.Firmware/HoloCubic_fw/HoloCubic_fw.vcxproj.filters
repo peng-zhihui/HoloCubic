@@ -21,31 +21,43 @@
     <ClInclude Include="__vm\.HoloCubic_fw.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ambient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="display.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="imu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lv_port_indev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="rgb_led.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ambient.h">
+    <ClInclude Include="lv_demo_encoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="display.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="imu.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="rgb_led.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="lv_port_indev.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ambient.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgb_led.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demo_encoder.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

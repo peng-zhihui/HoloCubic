@@ -1,3 +1,6 @@
+#ifndef AMBIENT_H
+#define AMBIENT_H
+
 #include <Wire.h>
 
 #define AMB_I2C_SDA 32 
@@ -20,3 +23,5 @@ public:
 	void init(int mode);
 	unsigned int getLux();
 };
+
+#endif

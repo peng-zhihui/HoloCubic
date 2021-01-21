@@ -1,3 +1,6 @@
+#ifndef RGB_H
+#define RGB_H
+
 #include <FastLED.h>
 
 #define RGB_LED_NUM 1
@@ -15,3 +18,5 @@ public:
 	Pixel& setRGB(int r, int g, int b);
 	Pixel& setBrightness(float duty);
 };
+
+#endif
