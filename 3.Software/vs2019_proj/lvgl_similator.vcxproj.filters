@@ -1,0 +1,1252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lvgl">
+      <UniqueIdentifier>{00bbd9f0-61e1-493c-bdf3-42bb9d7977e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_examples">
+      <UniqueIdentifier>{ed720555-7427-4501-9115-e36783be7ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_drivers">
+      <UniqueIdentifier>{9062de7c-fc54-4591-8810-aa105767bd93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lvgl_similator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\win_drv.c">
+      <Filter>lv_drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\porting\lv_port_disp_template.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\porting\lv_port_fs_template.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\porting\lv_port_indev_template.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_core\lv_disp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_core\lv_group.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_core\lv_indev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_core\lv_obj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_core\lv_refr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_core\lv_style.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_draw_arc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_draw_blend.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_draw_img.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_draw_label.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_draw_line.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_draw_mask.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_draw_rect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_draw_triangle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_img_buf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_img_cache.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_draw\lv_img_decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_dejavu_16_persian_hebrew.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_fmt_txt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_loader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_12.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_12_subpx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_14.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_18.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_20.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_22.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_24.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_26.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_28.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_28_compressed.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_30.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_34.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_36.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_38.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_40.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_42.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_44.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_46.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_montserrat_48.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_simsun_16_cjk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_font\lv_font_unscii_8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_gpu\lv_gpu_nxp_pxp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_gpu\lv_gpu_nxp_pxp_osa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_gpu\lv_gpu_nxp_vglite.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_gpu\lv_gpu_stm32_dma2d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_hal\lv_hal_disp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_hal\lv_hal_indev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_hal\lv_hal_tick.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_anim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_area.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_async.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_bidi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_color.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_debug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_fs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_gc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_ll.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_math.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_printf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_task.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_templ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_txt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_txt_ap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_misc\lv_utils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_themes\lv_theme.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_themes\lv_theme_empty.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_themes\lv_theme_material.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_themes\lv_theme_mono.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_themes\lv_theme_template.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_arc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_bar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_btn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_btnmatrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_calendar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_canvas.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_chart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_checkbox.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_cont.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_cpicker.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_dropdown.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_gauge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_img.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_imgbtn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_keyboard.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_label.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_led.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_line.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_linemeter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_msgbox.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_objmask.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_objx_templ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_page.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_roller.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_slider.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_spinbox.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_spinner.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_switch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_table.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_tabview.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_textarea.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_tileview.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\lv_widgets\lv_win.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_core\lv_test_core.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_core\lv_test_font_loader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_core\lv_test_obj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_core\lv_test_style.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_fonts\font_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_fonts\font_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_fonts\font_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_widgets\lv_test_label.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_assert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\img_cogwheel_alpha16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\img_cogwheel_argb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\img_cogwheel_chroma_keyed.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\img_cogwheel_indexed16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\img_cogwheel_rgb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\img_hand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\lv_font_montserrat_12_compr_az.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\lv_font_montserrat_16_compr_az.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\assets\lv_font_montserrat_28_compr_az.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_benchmark\lv_demo_benchmark.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_keypad_encoder\lv_demo_keypad_encoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_icon_bright.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_icon_eco.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_icon_hue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_icon_pc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_icon_tel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_icon_wifi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_btn_bg_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_btn_bg_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_btn_bg_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_btn_bg_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_cloud.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_copy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_internet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_mobile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_no_internet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_phone.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_printer2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_ready.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_scan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_scan_example.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_setup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_usb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_wave.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\lv_demo_printer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_printer\lv_demo_printer_theme.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_stress\lv_demo_stress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_demo_widgets\lv_demo_widgets.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_get_started\lv_ex_get_started_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_get_started\lv_ex_get_started_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_get_started\lv_ex_get_started_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_9.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_style\lv_ex_style_11.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_arc\lv_ex_arc_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_arc\lv_ex_arc_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_bar\lv_ex_bar_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_btn\lv_ex_btn_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_btn\lv_ex_btn_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_btnmatrix\lv_ex_btnmatrix_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_calendar\lv_ex_calendar_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_canvas\lv_ex_canvas_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_canvas\lv_ex_canvas_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_chart\lv_ex_chart_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_chart\lv_ex_chart_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_checkbox\lv_ex_checkbox_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_cont\lv_ex_cont_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_cpicker\lv_ex_cpicker_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_cpicker\lv_ex_cpicker_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_dropdown\lv_ex_dropdown_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_dropdown\lv_ex_dropdown_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_gauge\lv_ex_gauge_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_gauge\lv_ex_gauge_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_img\lv_ex_img_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_img\lv_ex_img_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_img\lv_ex_img_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_imgbtn\imgbtn_blue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_imgbtn\imgbtn_green.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_imgbtn\lv_ex_imgbtn_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_keyboard\lv_ex_keyboard_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_label\lv_ex_label_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_label\lv_ex_label_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_label\lv_ex_label_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_led\lv_ex_led_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_line\lv_ex_line_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_linemeter\lv_ex_linemeter_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_list\lv_ex_list_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_msgbox\lv_ex_msgbox_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_msgbox\lv_ex_msgbox_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_obj\lv_ex_obj_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_objmask\lv_ex_objmask_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_objmask\lv_ex_objmask_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_page\lv_ex_page_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_roller\lv_ex_roller_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_slider\lv_ex_slider_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_slider\lv_ex_slider_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_spinbox\lv_ex_spinbox_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_spinner\lv_ex_spinner_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_switch\lv_ex_switch_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_table\lv_ex_table_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_tabview\lv_ex_tabview_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_textarea\lv_ex_textarea_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_textarea\lv_ex_textarea_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_textarea\lv_ex_textarea_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_tileview\lv_ex_tileview_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_win\lv_ex_win_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\lv_ex_widgets\lv_ex_templ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\drm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\fbdev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\ILI9341.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\monitor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\R61581.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\SHARP_MIP.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\SSD1963.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\ST7565.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\UC1610.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\gtkdrv\gtkdrv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\AD_touch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\evdev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\FT5406EE8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\keyboard.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\libinput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\mouse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\mousewheel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\XPT2046.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lvgl\.editorconfig">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\.gitignore">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\.gitmodules">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\CHANGELOG.md">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\library.json">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\library.properties">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\lvgl.mk">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\README.md">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lv_examples\.gitignore">
+      <Filter>lv_examples</Filter>
+    </None>
+    <None Include="lv_examples\library.properties">
+      <Filter>lv_examples</Filter>
+    </None>
+    <None Include="lv_examples\lv_examples.mk">
+      <Filter>lv_examples</Filter>
+    </None>
+    <None Include="lv_examples\README.md">
+      <Filter>lv_examples</Filter>
+    </None>
+    <None Include="lv_drivers\.gitignore">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\library.json">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\LICENSE">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\lv_drivers.mk">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\README.md">
+      <Filter>lv_drivers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="lvgl\LICENCE.txt">
+      <Filter>lvgl</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lvgl\lv_conf_template.h">
+      <Filter>lvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\lvgl.h">
+      <Filter>lvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\lv_ex_conf_template.h">
+      <Filter>lv_examples</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\lv_examples.h">
+      <Filter>lv_examples</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\lv_drv_conf_template.h">
+      <Filter>lv_drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\win_drv.h">
+      <Filter>lv_drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drv_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_ex_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\porting\lv_port_disp_template.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\porting\lv_port_fs_template.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\porting\lv_port_indev_template.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_core\lv_disp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_core\lv_group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_core\lv_indev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_core\lv_obj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_core\lv_obj_style_dec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_core\lv_refr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_core\lv_style.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw_arc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw_blend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw_img.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw_label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw_line.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw_mask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw_rect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_draw_triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_img_buf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_img_cache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_draw\lv_img_decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_font\lv_font.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_font\lv_font_fmt_txt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_font\lv_font_loader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_font\lv_symbol_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_gpu\lv_gpu_nxp_pxp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_gpu\lv_gpu_nxp_pxp_osa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_gpu\lv_gpu_nxp_vglite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_gpu\lv_gpu_stm32_dma2d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_hal\lv_hal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_hal\lv_hal_disp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_hal\lv_hal_indev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_hal\lv_hal_tick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_anim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_area.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_async.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_bidi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_fs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_gc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_ll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_mem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_printf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_templ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_txt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_txt_ap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_misc\lv_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_themes\lv_theme.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_themes\lv_theme_empty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_themes\lv_theme_material.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_themes\lv_theme_mono.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_themes\lv_theme_template.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_arc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_bar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_btn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_btnmatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_calendar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_canvas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_chart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_checkbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_cont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_cpicker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_dropdown.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_gauge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_img.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_imgbtn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_keyboard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_led.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_line.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_linemeter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_msgbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_objmask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_objx_templ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_roller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_slider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_spinbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_spinner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_switch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_tabview.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_textarea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_tileview.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_widgets\lv_win.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_api_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_conf_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lvgl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_core\lv_test_core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_core\lv_test_font_loader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_core\lv_test_obj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_core\lv_test_style.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_widgets\lv_test_label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_assert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_demo_benchmark\lv_demo_benchmark.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_demo_keypad_encoder\lv_demo_keypad_encoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_demo_printer\lv_demo_printer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_demo_printer\lv_demo_printer_theme.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_demo_stress\lv_demo_stress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_demo_widgets\lv_demo_widgets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_ex_get_started\lv_ex_get_started.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_ex_style\lv_ex_style.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_ex_widgets\lv_ex_widgets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_examples\src\lv_examples.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\drm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\fbdev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\ILI9341.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\monitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\R61581.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\SHARP_MIP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\SSD1963.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\ST7565.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\UC1610.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\gtkdrv\gtkdrv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\AD_touch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\evdev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\FT5406EE8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\keyboard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\libinput_drv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\mouse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\mousewheel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\XPT2046.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -2,7 +2,7 @@
 #include "imu.h"
 #include "rgb_led.h"
 #include "ambient.h"
-#include <lv_examples/lv_examples.h>
+#include "lv_examples/lv_examples.h"
 
 Display screen;
 IMU mpu;
