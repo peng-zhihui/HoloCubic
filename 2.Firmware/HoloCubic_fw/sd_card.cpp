@@ -128,7 +128,7 @@ void SdCard::readFile(const char* path)
 
 String SdCard::readFileLine(const char* path, int num = 1)
 {
-	Serial.printf("Reading file: %s\n", path);
+	Serial.printf("Reading file: %s line: %d\n", path, num);
 
 	File file = SD.open(path);
 	if (!file)
@@ -146,8 +146,9 @@ String SdCard::readFileLine(const char* path, int num = 1)
 			if (num == 0)
 			{
 				*(p++) = '\0';
-
-				return  String(buf);
+				String s(buf);
+				s.trim();
+				return s;
 			}
 		}
 		else if (num == 1)
