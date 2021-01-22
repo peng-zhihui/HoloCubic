@@ -1,10 +1,9 @@
-#include <WiFi.h>
-#include <HTTPClient.h>
 #include "display.h"
 #include "imu.h"
-#include "rgb_led.h"
 #include "ambient.h"
+#include "network.h"
 #include "sd_card.h"
+#include "rgb_led.h"
 #include "lv_port_indev.h"
 #include "lv_cubic_gui.h"
 
@@ -17,6 +16,7 @@ IMU mpu;
 Pixel rgb;
 Ambient ambLight;
 SdCard tf;
+Network wifi;
 
 void setup()
 {
@@ -26,75 +26,32 @@ void setup()
 	screen.init();
 	screen.setBackLight(0.2);
 
-
 	/*** Init IMU as input device ***/
 	lv_port_indev_init();
 	mpu.init();
-
 
 	/*** Init on-board RGB ***/
 	rgb.init();
 	rgb.setBrightness(0.1).setRGB(0, 122, 204);
 
-
 	/*** Init ambient-light sensor ***/
 	ambLight.init(ONE_TIME_L_RESOLUTION_MODE);
 
-
 	/*** Init micro SD-Card ***/
 	tf.init();
-
+	String ssid = tf.readFileLine("/wifi.txt", 1);		// line-1 for WiFi ssid
+	String password = tf.readFileLine("/wifi.txt", 2);	// line-2 for WiFi password
 
 	/*** Read WiFi info in SD-Card, then scan & connect WiFi ***/
-	String ssid = tf.readFileLine("/wifi.txt", 1);
-	String password = tf.readFileLine("/wifi.txt", 2);
-
-	Serial.println("scan start");
-
-	int n = WiFi.scanNetworks();
-	Serial.println("scan done");
-	if (n == 0)
-	{
-		Serial.println("no networks found");
-	}
-	else
-	{
-		Serial.print(n);
-		Serial.println(" networks found");
-		for (int i = 0; i < n; ++i)
-		{
-			Serial.print(i + 1);
-			Serial.print(": ");
-			Serial.print(WiFi.SSID(i));
-			Serial.print(" (");
-			Serial.print(WiFi.RSSI(i));
-			Serial.print(")");
-			Serial.println((WiFi.encryptionType(i) == WIFI_AUTH_OPEN) ? " " : "*");
-			delay(10);
-		}
-	}
-	Serial.println("");
-	Serial.print("Connecting: ");
-	Serial.print(ssid.c_str());
-	Serial.print(" @");
-	Serial.println(password.c_str());
-
-	WiFi.begin(ssid.c_str(), password.c_str());
-	while (WiFi.status() != WL_CONNECTED)
-	{
-		delay(500);
-		Serial.print(".");
-	}
-	Serial.println("");
-	Serial.println("WiFi connected");
-	Serial.println("IP address: ");
-	Serial.println(WiFi.localIP());
-
+	wifi.init(ssid, password);
 
 	/*** Inflate GUI objects ***/
 	//lv_demo_benchmark();
-	lv_demo_encoder();
+	//lv_demo_encoder();
+	lv_holo_cubic_gui();
 
+
+	Serial.println(wifi.getBilibiliFans("http://api.bilibili.com/x/relation/stat?vmid=20259914"));
 
 
 	/*tf.listDir("/", 0);
@@ -122,7 +79,7 @@ void loop()
 	mpu.update(200);
 
 	rgb.setBrightness(ambLight.getLux() / 500.0);
-	//Serial.println(ambLight.getLux());
+	Serial.println(ambLight.getLux());
 
 	delay(10);
 }
