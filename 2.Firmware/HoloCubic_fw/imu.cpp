@@ -16,12 +16,12 @@ void IMU::update(int interval)
 {
 	imu.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
 
-	Serial.print(gx);
-	Serial.print(" ");
-	Serial.print(gy);
-	Serial.print(" ");
-	Serial.print(gz);
-	Serial.println(" ");
+	//Serial.print(gx);
+	//Serial.print(" ");
+	//Serial.print(gy);
+	//Serial.print(" ");
+	//Serial.print(gz);
+	//Serial.println(" ");
 
 	if (millis() - last_update_time > interval)
 	{
