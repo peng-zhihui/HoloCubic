@@ -427,6 +427,7 @@
     <Text Include="lvgl\LICENCE.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="images.h" />
     <ClInclude Include="lvgl\examples\porting\lv_port_disp_template.h" />
     <ClInclude Include="lvgl\examples\porting\lv_port_fs_template.h" />
     <ClInclude Include="lvgl\examples\porting\lv_port_indev_template.h" />

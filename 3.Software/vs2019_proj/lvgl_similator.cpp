@@ -93,6 +93,9 @@ int main(int argc, char** argv)
 
 	lv_holo_cubic_gui();
 
+	lv_scr_load_anim(scr_2, LV_SCR_LOAD_ANIM_MOVE_LEFT, 500, 5000, false);
+
+
 	while (1)
 	{
 		/* Periodically call the lv_task handler.

@@ -1,9 +1,5 @@
 #include "imu.h"
 
-
-int flag;
-extern Pixel rgb;
-
 void IMU::init()
 {
 	Wire.begin(IMU_I2C_SDA, IMU_I2C_SCL);

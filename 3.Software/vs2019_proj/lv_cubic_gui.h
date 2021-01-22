@@ -7,11 +7,14 @@ extern "C" {
 
 #include "lvgl/lvgl.h"
 
-
 	//extern lv_img_dsc_t screen_buffer;
 
-	void lv_holo_cubic_gui(void);
 
+	extern lv_obj_t* scr_1;
+	extern lv_obj_t* scr_2;
+
+
+	void lv_holo_cubic_gui(void);
 
 
 #ifdef __cplusplus

@@ -1254,5 +1254,8 @@
     <ClInclude Include="lv_cubic_gui.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="images.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

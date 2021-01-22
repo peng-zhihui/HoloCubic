@@ -18,6 +18,7 @@ class IMU
 {
 private:
 	MPU6050 imu;
+	int flag;
 	int16_t ax, ay, az;
 	int16_t gx, gy, gz;
 

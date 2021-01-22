@@ -9,6 +9,11 @@ extern "C" {
 
 	//extern lv_img_dsc_t screen_buffer;
 
+
+	extern lv_obj_t* scr1;
+	extern lv_obj_t* scr2;
+
+
 	void lv_holo_cubic_gui(void);
 
 

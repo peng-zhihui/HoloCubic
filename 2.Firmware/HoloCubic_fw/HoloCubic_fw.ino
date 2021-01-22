@@ -18,6 +18,8 @@ Ambient ambLight;
 SdCard tf;
 Network wifi;
 
+long time1;
+
 void setup()
 {
 	Serial.begin(115200);
@@ -48,10 +50,11 @@ void setup()
 	//tf.readBinFromSd("/ali.bin", (uint8_t*)screen_buffer.data);
 	//tf.writeBinToSd("/ali.bin", (uint8_t*)screen_buffer.data + 64);
 	lv_holo_cubic_gui();
+	lv_scr_load_anim(scr2, LV_SCR_LOAD_ANIM_MOVE_LEFT, 500, 3000, false);
 
 
 	/*** Read WiFi info in SD-Card, then scan & connect WiFi ***/
-#if 1
+#if 0
 	wifi.init(ssid, password);
 
 	Serial.println(wifi.getBilibiliFans("http://api.bilibili.com/x/relation/stat?vmid=20259914"));
@@ -76,8 +79,11 @@ void setup()
 
 
 	//Serial.println(sizeof(screen_buffer));
+
+	time1 = millis();
 }
 
+int flag = 0;
 
 void loop()
 {
@@ -90,4 +96,10 @@ void loop()
 	Serial.println(ambLight.getLux());
 
 	delay(10);
+
+	if (millis() - time1 > 6000 && !flag)
+	{
+		flag = 1;
+		lv_scr_load_anim(scr1, LV_SCR_LOAD_ANIM_MOVE_RIGHT, 500, 0, false);
+	}
 }
