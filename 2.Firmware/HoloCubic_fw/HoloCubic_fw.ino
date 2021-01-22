@@ -4,6 +4,7 @@
 #include "ambient.h"
 #include "lv_port_indev.h"
 #include "lv_demo_encoder.h"
+#include "lv_cubic_gui.h"
 
 Display screen;
 IMU mpu;
@@ -18,7 +19,6 @@ void setup()
 	screen.setBackLight(0.2);
 	lv_port_indev_init();
 
-
 	mpu.init();
 
 	rgb.init();
@@ -30,7 +30,7 @@ void setup()
 	lv_demo_encoder();
 }
 
-int i = 0;
+
 void loop()
 {
 	// run this as often as possible ¡ý
