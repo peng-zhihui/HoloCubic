@@ -14,6 +14,7 @@
 class Ambient
 {
 private:
+	int mMode;
 	unsigned char highByte = 0;
 	unsigned char lowByte = 0;
 	unsigned int sensorOut = 0;
