@@ -229,6 +229,52 @@ void SdCard::deleteFile(const char* path)
 	}
 }
 
+void SdCard::readBinFromSd(const char* path, uint8_t* buf)
+{
+	File file = SD.open(path);
+	size_t len = 0;
+	if (file)
+	{
+		len = file.size();
+		size_t flen = len;
+
+		while (len)
+		{
+			size_t toRead = len;
+			if (toRead > 512)
+			{
+				toRead = 512;
+			}
+			file.read(buf, toRead);
+			len -= toRead;
+		}
+
+		file.close();
+	}
+	else
+	{
+		Serial.println("Failed to open file for reading");
+	}
+}
+
+void SdCard::writeBinToSd(const char* path, uint8_t* buf)
+{
+	File file = SD.open(path, FILE_WRITE);
+	if (!file)
+	{
+		Serial.println("Failed to open file for writing");
+		return;
+	}
+
+	size_t i;
+	for (i = 0; i < 2048; i++)
+	{
+		file.write(buf, 512);
+	}
+	file.close();
+}
+
+
 void SdCard::fileIO(const char* path)
 {
 	File file = SD.open(path);

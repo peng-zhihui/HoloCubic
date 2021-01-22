@@ -277,6 +277,7 @@
     <ClCompile Include="lvgl\tests\lv_test_main.c" />
     <ClCompile Include="lvgl\tests\lv_test_widgets\lv_test_label.c" />
     <ClCompile Include="lvgl_similator.cpp" />
+    <ClCompile Include="lv_cubic_gui.c" />
     <ClCompile Include="lv_drivers\display\drm.c" />
     <ClCompile Include="lv_drivers\display\fbdev.c" />
     <ClCompile Include="lv_drivers\display\ILI9341.c" />
@@ -531,6 +532,7 @@
     <ClInclude Include="lvgl\tests\lv_test_core\lv_test_style.h" />
     <ClInclude Include="lvgl\tests\lv_test_widgets\lv_test_label.h" />
     <ClInclude Include="lv_conf.h" />
+    <ClInclude Include="lv_cubic_gui.h" />
     <ClInclude Include="lv_drivers\display\drm.h" />
     <ClInclude Include="lv_drivers\display\fbdev.h" />
     <ClInclude Include="lv_drivers\display\ILI9341.h" />

@@ -4,8 +4,7 @@
 #include "FS.h"
 #include "SD.h"
 #include "SPI.h"
-
-
+ 
 class SdCard
 {
 private:
@@ -32,8 +31,14 @@ public:
 
 	void deleteFile(  const char* path);
 
+	void readBinFromSd(const char* path, uint8_t* buf);
+
+	void writeBinToSd(const char* path, uint8_t* buf);
+
 	void fileIO(  const char* path);
 
 };
+
+extern SdCard tf;
 
 #endif

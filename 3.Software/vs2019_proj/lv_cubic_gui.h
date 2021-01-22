@@ -5,11 +5,13 @@
 extern "C" {
 #endif
 
-#include "lvgl.h"
+#include "lvgl/lvgl.h"
+
 
 	//extern lv_img_dsc_t screen_buffer;
 
 	void lv_holo_cubic_gui(void);
+
 
 
 #ifdef __cplusplus

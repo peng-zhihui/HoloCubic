@@ -771,6 +771,9 @@
     <ClCompile Include="lv_drivers\indev\XPT2046.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lv_cubic_gui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="lvgl\.editorconfig">
@@ -1246,6 +1249,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="lv_drivers\indev\XPT2046.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_cubic_gui.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
