@@ -2,7 +2,7 @@
 
 # HoloCubic--多功能透明显示屏桌面站
 
-**视频介绍：**https://www.bilibili.com/video/BV1VA411p7MD/
+**视频介绍：** https://www.bilibili.com/video/BV1VA411p7MD/
 
 ## 0. 关于本项目
 
@@ -39,3 +39,4 @@
 
 我用的时25.4mm x 25.4mm x 25.4mm的棱镜，淘宝应该可以搜到，单个价格80元左右。
 
+## 其他的后续再补充，有用的话记得点星星~
