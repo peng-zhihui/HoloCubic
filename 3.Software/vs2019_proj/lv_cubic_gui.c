@@ -3,6 +3,7 @@
  *********************/
 #include "lv_cubic_gui.h"
 #include "images.h"
+#include <stdlib.h>
 
 lv_obj_t* scr_1;
 lv_obj_t* scr_2;
@@ -28,4 +29,9 @@ void lv_holo_cubic_gui(void)
 	lv_obj_t* img2 = lv_img_create(scr_2, NULL);
 	lv_img_set_src(img2, &cat);
 	lv_obj_align(img2, NULL, LV_ALIGN_CENTER, 0, 0);
+
+	lv_obj_t* label1 = lv_label_create(scr_1, NULL);
+ 
+	lv_label_set_text_fmt(label1, "CPU Temp: %d C", 0);
+	lv_obj_set_pos(label1, 20, 30);
 }

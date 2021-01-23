@@ -1,0 +1,33 @@
+PlatformIO User notes:
+
+It is possible to load settings from the calling program rather than modifying
+the library for each project by modifying the "platformio.ini" file.
+
+The User_Setup_Select.h file will not load the user setting header files if
+USER_SETUP_LOADED is defined.
+
+Instead of using #define, use the -D prefix, for example:
+
+[env:esp32dev]
+platform = https://github.com/platformio/platform-espressif32.git#feature/stage
+board = esp32dev
+framework = arduino
+upload_port = ESP32-Test-2481CE9C.local
+
+build_flags =
+  -Os
+  -DCORE_DEBUG_LEVEL=ARDUHAL_LOG_LEVEL_DEBUG
+  -DUSER_SETUP_LOADED=1
+  -DILI9163_DRIVER=1
+  -DTFT_WIDTH=128
+  -DTFT_HEIGHT=160
+  -DTFT_MISO=19
+  -DTFT_MOSI=23
+  -DTFT_SCLK=18
+  -DTFT_CS=5
+  -DTFT_DC=19
+  -DTFT_RST=-1
+  -DLOAD_GLCD=1
+  -DSPI_FREQUENCY=27000000
+
+lib_extra_dirs = B:\Projects\ESP32\ESP32Lib
