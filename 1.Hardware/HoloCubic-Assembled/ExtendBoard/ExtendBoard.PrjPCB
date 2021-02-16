@@ -73,6 +73,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OBQETHQV
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ExtendBoard\Design Rule Check - ExtendBoard.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -231,7 +235,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
