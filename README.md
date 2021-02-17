@@ -1,4 +1,4 @@
-![](https://pengzhihui-markdown.oss-cn-shanghai.aliyuncs.com/img/20210123154019.png)
+![](/5.Docs/Images/Holo.jpg)
 
 # HoloCubic--多功能透明显示屏桌面站
 
@@ -39,4 +39,27 @@
 
 我用的时25.4mm x 25.4mm x 25.4mm的棱镜，淘宝应该可以搜到，单个价格80元左右。
 
+## 4. 文件说明
+
+### Hardware
+
+* Naive Version：视频中出现的版本，因为周末制作+赶视频时间匆忙所以结构设计得比较简单，以下两个外壳结构都是用这个电路版本↓
+
+  ![](.assets/README/20210123154019.png)
+
+  ![](/4.3D Model/Metal Version/holocubic1.jpg)
+
+  
+
+* Ironman Version：新设计的钢铁侠风格结构件的配套电路，原理图是一样的，下面的结构用这个版本电路（该版本为和朋友合作设计的，后面可能会授权他联名量产，所以结构文件暂未上传）
+
+  ![](/5.Docs/Images/Holo1.jpg)
+
+### Software
+
+* Visual Studio的工程，可以在电脑上模拟LVGL的界面效果，改好之后代码粘贴到Arduino固件那边就可以完成界面移植。这样省的每次修改都要重新交叉编译Arduino的固件，提升开发效率。
+
+
+
 ## 其他的后续再补充，有用的话记得点星星~
+
