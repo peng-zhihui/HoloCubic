@@ -45,11 +45,9 @@
 
 * Naive Version：视频中出现的版本，因为周末制作+赶视频时间匆忙所以结构设计得比较简单，以下两个外壳结构都是用这个电路版本↓
 
-  ![](.assets/README/20210123154019.png)
+  ![](/5.Docs/Images/Holo3.png)
 
-  ![](/4.3D Model/Metal Version/holocubic1.jpg)
-
-  
+  ![](/5.Docs/Images/Holo2.jpg)
 
 * Ironman Version：新设计的钢铁侠风格结构件的配套电路，原理图是一样的，下面的结构用这个版本电路（该版本为和朋友合作设计的，后面可能会授权他联名量产，所以结构文件暂未上传）
 
