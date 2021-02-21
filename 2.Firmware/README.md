@@ -9,7 +9,7 @@
 
 在ino文件中可以直接修其中的数据来显示自己地方的天气和粉丝数 
 
-    String  appid = "XXXX";		        //天气API的APPID	 
+    String  appid = "XXXX";		         //天气API的APPID	 
     String  appsecret = "XXXX";		 //天气API的APPSecret
     String  cityid = "XXXX";		 //天气API的城市ID  
     String  biliid = "XXXX";		 //Bilibili的ID
