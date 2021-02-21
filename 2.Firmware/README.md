@@ -1,4 +1,3 @@
-![](/5.Docs/Images/Holo.jpg)
 
 # HoloCubic--多功能透明显示屏桌面站
 
@@ -10,13 +9,13 @@
 
 在ino文件中可以直接修其中的数据来显示自己地方的天气和粉丝数 
 
-    String  appid = "XXXX";		     //天气API的APPID	 
+    String  appid = "XXXX";		        //天气API的APPID	 
     String  appsecret = "XXXX";		 //天气API的APPSecret
     String  cityid = "XXXX";		 //天气API的城市ID  
     String  biliid = "XXXX";		 //Bilibili的ID
     String  cityname = "XXXX";		 //城市名
 
- 天气API的官网地址：https://www.tianqiapi.com（可参考官网教程、城市ID等）
+ 天气API的官网地址：https://www.tianqiapi.com   （可参考官网教程、城市ID等）
 
 其他功能待更新！
 
