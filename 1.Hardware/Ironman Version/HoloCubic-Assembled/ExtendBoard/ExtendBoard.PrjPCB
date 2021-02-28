@@ -73,10 +73,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OBQETHQV
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for ExtendBoard\Design Rule Check - ExtendBoard.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
