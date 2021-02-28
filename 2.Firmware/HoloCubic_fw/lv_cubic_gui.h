@@ -12,11 +12,8 @@ extern "C" {
 
 	extern lv_obj_t* scr1;
 	extern lv_obj_t* scr2;
-	extern lv_obj_t* label1;
-	extern lv_obj_t* label2;
-	extern lv_obj_t* label3;
-	extern lv_obj_t* label4;
-	extern lv_obj_t* label5;
+
+
 	void lv_holo_cubic_gui(void);
 
 

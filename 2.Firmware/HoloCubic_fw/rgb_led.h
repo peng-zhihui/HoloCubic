@@ -3,9 +3,9 @@
 
 #include <FastLED.h>
 
-#define RGB_LED_NUM 1
+#define RGB_LED_NUM 2
 #define RGB_LED_PIN 27
- 
+
 
 class Pixel
 {
@@ -15,7 +15,7 @@ private:
 public:
 	void init();
 
-	Pixel& setRGB(int r, int g, int b);
+	Pixel& setRGB(int id, int r, int g, int b);
 	Pixel& setBrightness(float duty);
 };
 

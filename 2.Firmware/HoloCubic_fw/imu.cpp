@@ -8,8 +8,6 @@ void IMU::init()
 	imu.initialize();
 }
 
-
-int tmp = 0;
 void IMU::update(int interval)
 {
 	imu.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
@@ -27,15 +25,11 @@ void IMU::update(int interval)
 		{
 			encoder_diff--;
 			flag = 0;
-			tmp = 1;
-
 		}
 		else if (ay < -3000 && flag)
 		{
 			encoder_diff++;
 			flag = 0;
-
-			tmp = 2;
 		}
 		else
 		{

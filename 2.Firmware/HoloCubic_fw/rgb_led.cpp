@@ -7,9 +7,9 @@ void Pixel::init()
 	FastLED.setBrightness(200);
 }
 
-Pixel& Pixel::setRGB(int r, int g, int b)
+Pixel& Pixel::setRGB(int id, int r, int g, int b)
 {
-	color_buffers[0] = CRGB(r, g, b);
+	color_buffers[id] = CRGB(r, g, b);
 	FastLED.show();
 
 	return *this;
