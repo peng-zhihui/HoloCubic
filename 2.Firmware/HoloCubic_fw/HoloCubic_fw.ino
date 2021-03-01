@@ -7,7 +7,6 @@
 #include "lv_port_indev.h"
 #include "lv_port_fatfs.h"
 #include "lv_cubic_gui.h"
-
 #include "lv_demo_encoder.h"
 
 
@@ -39,6 +38,7 @@ void setup()
 	/*** Init micro SD-Card ***/
 	tf.init();
 	lv_fs_if_init();
+
 
 	String ssid = tf.readFileLine("/wifi.txt", 1);		// line-1 for WiFi ssid
 	String password = tf.readFileLine("/wifi.txt", 2);	// line-2 for WiFi password

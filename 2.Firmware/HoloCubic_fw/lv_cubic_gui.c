@@ -28,4 +28,9 @@ void lv_holo_cubic_gui(void)
 	lv_obj_t* img2 = lv_img_create(scr2, NULL);
 	lv_img_set_src(img2, &cat);
 	lv_obj_align(img2, NULL, LV_ALIGN_CENTER, 0, 0);
+
+	lv_obj_t* imgbtn = lv_imgbtn_create(lv_scr_act(), NULL);
+	lv_imgbtn_set_src(imgbtn, LV_BTN_STATE_PRESSED, "S:/dir/icon_press.bin");
+	lv_imgbtn_set_src(imgbtn, LV_BTN_STATE_RELEASED, "S:/dir/icon_press.bin");
+	lv_obj_align(imgbtn, NULL, LV_ALIGN_CENTER, 0, 0);
 }

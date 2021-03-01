@@ -18,6 +18,7 @@ extern "C" {
 	 *********************/
 #include "lvgl.h"
 #include "ff.h"
+#include "lv_bmp.h"
 	 /*********************
 	  *      DEFINES
 	  *********************/
