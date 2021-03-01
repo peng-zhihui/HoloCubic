@@ -51,6 +51,9 @@
     <ClInclude Include="images.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lv_port_fatfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lv_port_indev.c">
@@ -80,7 +83,7 @@
     <ClCompile Include="network.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lv_fs_fatfs.c">
+    <ClCompile Include="lv_port_fatfs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

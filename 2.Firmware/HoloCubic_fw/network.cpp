@@ -44,11 +44,11 @@ void Network::init(String ssid, String password)
 	Serial.println(WiFi.localIP());
 }
 
-unsigned int Network::getBilibiliFans(String url)
+unsigned int Network::getBilibiliFans(String uid)
 {
 	String fansCount = "";
 	HTTPClient http;
-	http.begin(url);
+	http.begin("http://api.bilibili.com/x/relation/stat?vmid=" + uid);
 
 	// start connection and send HTTP headerFFF
 	int httpCode = http.GET();

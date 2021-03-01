@@ -57,11 +57,12 @@ void setup()
 	lv_scr_load_anim(scr2, LV_SCR_LOAD_ANIM_MOVE_LEFT, 500, 3000, false);
 
 
-	/*** Read WiFi info in SD-Card, then scan & connect WiFi ***/
+	/*** Read WiFi info from SD-Card, then scan & connect WiFi ***/
 #if 1
 	wifi.init(ssid, password);
 
-	Serial.println(wifi.getBilibiliFans("http://api.bilibili.com/x/relation/stat?vmid=20259914"));
+	// Change to your BiliBili UID ¡ý
+	Serial.println(wifi.getBilibiliFans("20259914"));
 #endif
 
 

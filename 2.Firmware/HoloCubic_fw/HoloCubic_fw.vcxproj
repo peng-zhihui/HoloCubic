@@ -112,6 +112,7 @@
     <ClInclude Include="imu.h" />
     <ClInclude Include="lv_cubic_gui.h" />
     <ClInclude Include="lv_demo_encoder.h" />
+    <ClInclude Include="lv_port_fatfs.h" />
     <ClInclude Include="lv_port_indev.h" />
     <ClInclude Include="network.h" />
     <ClInclude Include="rgb_led.h" />
@@ -124,7 +125,7 @@
     <ClCompile Include="imu.cpp" />
     <ClCompile Include="lv_cubic_gui.c" />
     <ClCompile Include="lv_demo_encoder.c" />
-    <ClCompile Include="lv_fs_fatfs.c" />
+    <ClCompile Include="lv_port_fatfs.c" />
     <ClCompile Include="lv_port_indev.c" />
     <ClCompile Include="network.cpp" />
     <ClCompile Include="rgb_led.cpp" />
