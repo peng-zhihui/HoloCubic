@@ -96,6 +96,14 @@ lv_imgbtn_set_src(imgbtn, LV_BTN_STATE_RELEASED, "S:/dir/icon_released.holo");
 
 > 该脚本参考了[W-Mai/lvgl_image_converter](https://github.com/W-Mai/lvgl_image_converter) 的实现。
 
+
+
+**另外由于转换脚本的使用需要再Python环境下，如果大家不想安装环境的话，也可以用我预编译好的exe文件来转，使用方法很简单，把`jpg/png/bmp`图片拖到`holo转换器.exe`的图标上就行了（可以同时拖动多个上去），会在当前目录生成对应的`.holo`文件。**
+
+> 转换器软件的下载地址：
+>
+> 链接：https://pan.baidu.com/s/11cPOVYnKkxmd88o-Ouwb5g  提取码：xlju 
+
 ## 4. 关于分光棱镜
 
 我用的时25.4mm x 25.4mm x 25.4mm的棱镜，淘宝应该可以搜到，单个价格80元左右。
