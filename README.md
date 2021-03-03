@@ -35,7 +35,7 @@
 
   ![](/5.Docs/Images/Holo2.jpg)
 
-* **Ironman Version **：新设计的野生钢铁侠风格结构件，该版本为和朋友合作设计的，后面可能会授权他联名量产，该结构适配`Ironman Version`的PCB
+* **Ironman Version ** ：新设计的野生钢铁侠风格结构件，该版本为和朋友合作设计的，后面可能会授权他联名量产，该结构适配`Ironman Version`的PCB
 
   ![](/5.Docs/Images/Holo.jpg)
 
