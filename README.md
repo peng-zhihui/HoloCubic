@@ -80,7 +80,7 @@
 
 > 因为图像资源一般都比较占空间，如果全部存在ESP32的Flash中的话存不了几张，因此我在框架中移植了LVGL的FAT文件系统支持，可以将图片资源存储在SD卡内进行读取。
 >
-> 官方的图转换工具是在线的：https://lvgl.io/tools/imageconverter，需要选择`Indexed 4 colors`格式。
+> 官方的图转换工具是在线的：https://lvgl.io/tools/imageconverter，需要选择 `Indexed 4 colors` 格式。
 >
 > **但是官方工具每次只能转换一张还要上传下载很麻烦**，因此我自己写了个脚本用于批量转换。
 
