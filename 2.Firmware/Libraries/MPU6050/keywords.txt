@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For MPU6050
+#######################################
+
+#######################################
+# Class (KEYWORD1)
+#######################################
+MPU6050	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+initialize  KEYWORD2
+testConnection  KEYWORD2
+
+getMotion6  KEYWORD2
+getMotion9  KEYWORD2
+getAccelerationX    KEYWORD2
+getAccelerationY    KEYWORD2
+getAccelerationZ    KEYWORD2
+
+getTemperature  KEYWORD2
+
+getRotation KEYWORD2
+getRotationX    KEYWORD2
+getRotationY    KEYWORD2
+getRotationZ    KEYWORD2
+
+setI2CMasterModeEnabled KEYWORD2
+setI2CBypassEnabled KEYWORD2
+setSleepEnabled KEYWORD2
+getFreefallDetectionThreshold   KEYWORD2
+setFreefallDetectionThreshold   KEYWORD2
+getFreefallDetectionDuration    KEYWORD2
+setFreefallDetectionDuration    KEYWORD2
+getMotionDetectionThreshold KEYWORD2
+setMotionDetectionThreshold KEYWORD2
+getMotionDetectionDuration  KEYWORD2
+setMotionDetectionDuration  KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
