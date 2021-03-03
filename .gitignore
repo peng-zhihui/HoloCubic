@@ -21,3 +21,5 @@ _private
 3.Software/LvglSimulator/vs2019_proj/.vs
 3.Software/LvglSimulator/vs2019_proj/x64/Debug
 3.Software/LvglSimulator/vs2019_proj/x64/Release
+3.Software/ImageToHolo/.idea
+3.Software/ImageToHolo/convertor/__pycache__

@@ -61,7 +61,7 @@ int main(int argc, char** argv)
 
 	 //lv_demo_widgets();
 	 //lv_demo_benchmark();
-	 //lv_demo_keypad_encoder();
+	 lv_demo_keypad_encoder();
 	 //lv_demo_printer();
 	 //lv_demo_stress();
 	 //lv_ex_get_started_1();
@@ -91,9 +91,9 @@ int main(int argc, char** argv)
 	  //lv_ex_img_1();
 	  //lv_ex_tileview_1();
 
-	lv_holo_cubic_gui();
+	//lv_holo_cubic_gui();
 
-	lv_scr_load_anim(scr_2, LV_SCR_LOAD_ANIM_OVER_BOTTOM, 300, 5000, false);
+	//lv_scr_load_anim(scr_2, LV_SCR_LOAD_ANIM_OVER_BOTTOM, 300, 5000, false);
 
 
 	while (1)
