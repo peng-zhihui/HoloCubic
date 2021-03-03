@@ -127,7 +127,7 @@ class Convertor(object):
             self.img = self.img.convert(mode="P", colors=palette_size)
             real_palette_size = len(self.img.getcolors())  # The real number of colors in the image's palette
             real_palette = self.img.getpalette()
-            self.img.show()
+            # self.img.show()
             for i in range(palette_size):
                 if i < real_palette_size:
                     c = getColorFromPalette(real_palette, i)

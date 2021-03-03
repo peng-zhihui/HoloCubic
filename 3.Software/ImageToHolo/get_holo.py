@@ -1,14 +1,15 @@
-import os, sys
+import os.path, sys, time
 from convertor.core import Convertor
 
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        INPUT_FILE = sys.argv[1]
-    else:
-        print("usage:\n\t python " + sys.argv[0] + " input_file.jpg")
+
+    if len(sys.argv) < 2:
+        print("用法: 把要转换的 JPG/PNG/BMP 文件拖到.exe图标上即可")
+        time.sleep(3)
         sys.exit(0)
 
-    c = Convertor(INPUT_FILE)
-
-    c.get_bin_file()
-    c.get_c_code_file()
+    for i, img_path in enumerate(sys.argv[1:]):
+        print("正在转换图片{} ...".format(os.path.basename(img_path)))
+        c = Convertor(img_path)
+        c.get_bin_file()
+        # c.get_c_code_file()
