@@ -54,6 +54,18 @@
     <ClInclude Include="lv_port_fatfs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="gui_guider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guider_lv_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guider_fonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="events_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lv_port_indev.c">
@@ -71,9 +83,6 @@
     <ClCompile Include="rgb_led.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lv_demo_encoder.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="lv_cubic_gui.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -84,6 +93,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="lv_port_fatfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_guider.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setup_scr_screen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_font_simsun_12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="events_init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

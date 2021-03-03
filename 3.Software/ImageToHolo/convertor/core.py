@@ -335,7 +335,7 @@ const lv_img_dsc_t {self.out_name} = {{
         header_bin = struct.pack("<L", header)
         content = struct.pack(f"<{len(content)}B", *content)
 
-        with open(self.out_name + ".holo", "wb") as f:
+        with open(self.out_name + ".bin", "wb") as f:
             f.write(header_bin + content)
             f.close()
 

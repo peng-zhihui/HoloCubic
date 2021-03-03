@@ -84,15 +84,15 @@
 >
 > **但是官方工具每次只能转换一张还要上传下载很麻烦**，因此我自己写了个脚本用于批量转换。
 
-我将HoloCubic用到的图片资源命名为`.holo`文件，大家用我提供的脚本转好后放入SD卡，然后可以像这样读取：
+HoloCubic用到的图片资源名为`xxx.bin`文件，大家用我提供的脚本转好后放入SD卡，然后可以像这样读取：
 
 ```
 lv_obj_t* imgbtn = lv_imgbtn_create(lv_scr_act(), NULL);
-lv_imgbtn_set_src(imgbtn, LV_BTN_STATE_PRESSED, "S:/dir/icon_pressed.holo");
-lv_imgbtn_set_src(imgbtn, LV_BTN_STATE_RELEASED, "S:/dir/icon_released.holo");
+lv_imgbtn_set_src(imgbtn, LV_BTN_STATE_PRESSED, "S:/dir/icon_pressed.bin");
+lv_imgbtn_set_src(imgbtn, LV_BTN_STATE_RELEASED, "S:/dir/icon_released.bin");
 ```
 
-其中`S:`指代SD卡根目录，后面就是跟Linux中的路径完全表示一致了。
+其中`S:`指代SD卡根目录（注意**S是大写的**），后面就是跟Linux中的路径完全表示一致了。
 
 > 该脚本参考了[W-Mai/lvgl_image_converter](https://github.com/W-Mai/lvgl_image_converter) 的实现。
 
