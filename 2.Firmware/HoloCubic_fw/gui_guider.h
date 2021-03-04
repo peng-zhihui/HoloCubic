@@ -7,18 +7,18 @@ extern "C" {
 #include "lvgl.h"
 #include "guider_fonts.h"
 
-typedef struct
-{
-	lv_obj_t *screen;
-	lv_obj_t *screen_img0;
-	lv_obj_t *screen_btn1;
-	lv_obj_t *screen_btn1_label;
-}lv_ui;
+	typedef struct
+	{
+		lv_obj_t* home;
+		lv_obj_t* home_cpicker0;
+		lv_obj_t* scenes;
+		lv_obj_t* scenes_canvas;
+	}lv_ui;
 
-void setup_ui(lv_ui *ui);
-extern lv_ui guider_ui;
-void setup_scr_screen(lv_ui *ui);
- 
+	void setup_ui(lv_ui* ui);
+	extern lv_ui guider_ui;
+	void setup_scr_home(lv_ui* ui);
+	void setup_scr_scenes(lv_ui* ui);
 
 #ifdef __cplusplus
 }

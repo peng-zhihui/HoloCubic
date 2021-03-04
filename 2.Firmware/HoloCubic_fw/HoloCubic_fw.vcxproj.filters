@@ -36,9 +36,6 @@
     <ClInclude Include="rgb_led.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lv_demo_encoder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="lv_cubic_gui.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -98,13 +95,16 @@
     <ClCompile Include="gui_guider.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="setup_scr_screen.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="lv_font_simsun_12.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="events_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setup_scr_home.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setup_scr_scenes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
