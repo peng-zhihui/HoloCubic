@@ -43,8 +43,8 @@ void setup()
     String password = tf.readFileLine("/wifi.txt", 2);    // line-2 for WiFi password
 
     /*** Inflate GUI objects ***/
-    //lv_holo_cubic_gui();
-    setup_ui(&guider_ui);
+    lv_holo_cubic_gui();
+//    setup_ui(&guider_ui);
 
     /*** Read WiFi info from SD-Card, then scan & connect WiFi ***/
 #if 0
@@ -66,12 +66,13 @@ void loop()
     // 200 means update IMU data every 200ms
     mpu.update(200);
 
-    int len = sprintf(buf, "S:/Scenes/Holo3D/frame%03d.bin", frame_id++);
-    buf[len] = 0;
-    lv_img_set_src(guider_ui.scenes_canvas, buf);
-    Serial.println(buf);
-
-    if (frame_id == 138) frame_id = 0;
+    Serial.println("hello");
+//    int len = sprintf(buf, "S:/Scenes/Holo3D/frame%03d.bin", frame_id++);
+//    buf[len] = 0;
+//    lv_img_set_src(guider_ui.scenes_canvas, buf);
+//    Serial.println(buf);
+//
+//    if (frame_id == 138) frame_id = 0;
 
     //delay(10);
 }
