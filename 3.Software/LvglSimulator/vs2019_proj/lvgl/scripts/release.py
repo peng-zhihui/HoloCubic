@@ -6,7 +6,7 @@
 #
 # STEPS:
 #  - clone all 5 repos
-#  - get the version numnber from lvgl.h
+#  - get the version number from lvgl.h
 #  - set release branch (e.g. "release/v7")
 #  - prepare lvgl
 #    - run lv_conf_internal.py
@@ -17,7 +17,7 @@
 #    - update CHANGELOG.md
 #    - commit changes 
 #  - prepare lv_examples
-#    - upadte the required LVGL version in lv_examples.h (LV_VERSION_CHECK) 
+#    - update the required LVGL version in lv_examples.h (LV_VERSION_CHECK) 
 #    - update the version in lv_ex_conf_template.h
 #  - prepare lv_drivers
 #    - update the version in library.json, lv_drv_conf_template.h      
@@ -410,7 +410,7 @@ def projs_update():
     for p in proj_list:
         os.chdir("./" + p)
         cmd('git checkout master')
-        print(p + ": upadte lvgl");
+        print(p + ": update lvgl");
         cmd("cd lvgl; git co " + release_br + "; git pull origin " + release_br)
         cmd("cp -f lvgl/lv_conf_template.h lv_conf.h")
         cmd("sed -i -r 's/#if 0/#if 1/' lv_conf.h")  # Enable lv_conf.h
@@ -424,11 +424,11 @@ def projs_update():
             define_set("lv_conf.h", str(k), str(v))        
             
         if os.path.exists("lv_examples"): 
-            print(p + ": upadte lv_examples");
+            print(p + ": update lv_examples");
             cmd("cd lv_examples; git co " + release_br + "; git pull origin " + release_br)
             
         if os.path.exists("lv_drivers"): 
-            print(p + ": upadte lv_drivers");
+            print(p + ": update lv_drivers");
             cmd("cd lv_drivers " + release_br + "; git pull origin " + release_br)
 
         msg = 'Update to ' + ver_str

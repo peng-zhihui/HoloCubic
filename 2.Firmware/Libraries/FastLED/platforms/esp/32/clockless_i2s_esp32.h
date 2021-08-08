@@ -33,7 +33,7 @@
  * 32-bit values -- one for each bit for each strip. The pixel data,
  * however, is stored "serially" as a series of RGB values separately
  * for each strip. To prepare the data we need to do three things: (1)
- * take 1 pixel from each strip, and (2) tranpose the bits so that
+ * take 1 pixel from each strip, and (2) transpose the bits so that
  * they are in the parallel form, (3) translate each data bit into the
  * bit pattern that encodes the signal for that bit. This code is in
  * the fillBuffer() method:
@@ -43,7 +43,7 @@
  *      bytes, then all the blue bytes). For three color channels, the
  *      array is 3 X 24 X 8 bits.
  *
- *   2. Tranpose the array so that it is 3 X 8 X 24 bits. The hardware
+ *   2. Transpose the array so that it is 3 X 8 X 24 bits. The hardware
  *      wants the data in 32-bit chunks, so the actual form is 3 X 8 X
  *      32, with the low 8 bits unused.
  *
@@ -309,7 +309,7 @@ protected:
          */
 
         freq=1000000000L*freq*gPulsesPerBit;
-        // Serial.printf("needed frequency (nbpiulse per bit)*(chispset frequency):%f Mhz\n",freq/1000000);
+        // Serial.printf("needed frequency (nbpiulse per bit)*(chipset frequency):%f Mhz\n",freq/1000000);
         
         /*
          we do calculate the needed N a and b
@@ -648,7 +648,7 @@ protected:
         int buf_index = 0;
         for (int channel = 0; channel < NUM_COLOR_CHANNELS; channel++) {
             
-            // -- Tranpose each array: all the bit 7's, then all the bit 6's, ...
+            // -- Transpose each array: all the bit 7's, then all the bit 6's, ...
             transpose32(gPixelRow[channel], gPixelBits[channel][0] );
             
             //Serial.print("Channel: "); Serial.print(channel); Serial.print(" ");

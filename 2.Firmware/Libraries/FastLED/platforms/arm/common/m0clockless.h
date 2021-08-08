@@ -207,7 +207,7 @@ showLedData(volatile uint32_t *_port, uint32_t _bitmask, const uint8_t *_leds, u
     :
 
     /////////////////////////////////////////////////////////////////////////
-    // now for some convinience macros to make building our lines a bit cleaner
+    // now for some convenience macros to make building our lines a bit cleaner
 #define LOOP            "  loop_%=:"
 #define HI2             "  qset2 %[bitmask], %[port], %[hi_off];"
 #define _D1             "  mod_delay %c[T1],2,0,%[scratch];"

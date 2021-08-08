@@ -50,7 +50,7 @@ protected:
 
     /// set all the leds on the controller to a given color
     ///@param data the crgb color to set the leds to
-    ///@param nLeds the numner of leds to set to this color
+    ///@param nLeds the number of leds to set to this color
     ///@param scale the rgb scaling value for outputting color
     virtual void showColor(const struct CRGB & data, int nLeds, CRGB scale) = 0;
 
@@ -392,7 +392,7 @@ protected:
 
   /// set all the leds on the controller to a given color
   ///@param data the crgb color to set the leds to
-  ///@param nLeds the numner of leds to set to this color
+  ///@param nLeds the number of leds to set to this color
   ///@param scale the rgb scaling value for outputting color
   virtual void showColor(const struct CRGB & data, int nLeds, CRGB scale) {
     PixelController<RGB_ORDER, LANES, MASK> pixels(data, nLeds, scale, getDither());

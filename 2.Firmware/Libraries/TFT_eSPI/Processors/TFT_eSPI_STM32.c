@@ -84,7 +84,7 @@ void TFT_eSPI::end_SDA_Read(void)
 ** Description:             Write a block of pixels of the same colour
 ***************************************************************************************/
 void TFT_eSPI::pushBlock(uint16_t color, uint32_t len){
-    // Loop unrolling improves speed dramtically graphics test  0.634s => 0.374s
+    // Loop unrolling improves speed dramatically graphics test  0.634s => 0.374s
     while (len>31) {
     #if !defined (SSD1963_DRIVER)
       // 32D macro writes 16 bits twice
