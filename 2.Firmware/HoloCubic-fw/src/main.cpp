@@ -23,6 +23,9 @@ void setup()
 {
     Serial.begin(115200);
 
+    Serial.println("ooo");
+    Serial.println(ESP.getMaxAllocHeap());
+
     /*** Init screen ***/
     screen.init();
     screen.setBackLight(0.2);
@@ -42,8 +45,10 @@ void setup()
     String ssid = tf.readFileLine("/wifi.txt", 1);        // line-1 for WiFi ssid
     String password = tf.readFileLine("/wifi.txt", 2);    // line-2 for WiFi password
 
+
+
     /*** Inflate GUI objects ***/
-//    lv_holo_cubic_gui();
+     lv_holo_cubic_gui();
     setup_ui(&guider_ui);
 
     /*** Read WiFi info from SD-Card, then scan & connect WiFi ***/
@@ -73,6 +78,4 @@ void loop()
     Serial.println(buf);
 
     if (frame_id == 10) frame_id = 1;
-
-    //delay(10);
 }
