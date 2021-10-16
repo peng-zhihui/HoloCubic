@@ -112,7 +112,7 @@ public:
 			b.bytes[i+(USED_LANES/2)] = pixels.template loadAndScale<PX>(pixels,i+(USED_LANES/2),d,scale);
 		}
 
-		// if folks use an odd numnber of lanes, get the last byte's value here
+		// if folks use an odd number of lanes, get the last byte's value here
 		if(USED_LANES & 0x01) {
 			b.bytes[USED_LANES-1] = pixels.template loadAndScale<PX>(pixels,USED_LANES-1,d,scale);
 		}

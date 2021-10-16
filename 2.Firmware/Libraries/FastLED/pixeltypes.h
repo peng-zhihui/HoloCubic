@@ -230,7 +230,7 @@ struct CRGB {
         return *this;
     }
 
-    /// add a contstant to each channel, saturating at 0xFF
+    /// add a constant to each channel, saturating at 0xFF
     /// this is NOT an operator+= overload because the compiler
     /// can't usefully decide when it's being passed a 32-bit
     /// constant (e.g. CRGB::Red) and an 8-bit one (CRGB::Blue)

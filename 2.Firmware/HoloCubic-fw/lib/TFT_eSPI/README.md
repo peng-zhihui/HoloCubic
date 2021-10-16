@@ -42,7 +42,7 @@ Displays using the following controllers are supported:
 
 ILI9341 and ST7796 SPI based displays are recommended as starting point for experimenting with this library.
 
-The library supports some TFT displays designed for the Raspberry Pi (RPi) that are based on a ILI9486 or ST7796 driver chip with a 480 x 320 pixel screen. The ILI9486 RPi display must be of the Waveshare design and use a 16 bit serial interface based on the 74HC04, 74HC4040 and 2 x 74HC4094 logic chips. Note that due to design variations between these displays not all RPi displays will work with this library, so purchaing a RPi display of these types soley for use with this library is not recommended.
+The library supports some TFT displays designed for the Raspberry Pi (RPi) that are based on a ILI9486 or ST7796 driver chip with a 480 x 320 pixel screen. The ILI9486 RPi display must be of the Waveshare design and use a 16 bit serial interface based on the 74HC04, 74HC4040 and 2 x 74HC4094 logic chips. Note that due to design variations between these displays not all RPi displays will work with this library, so purchasing a RPi display of these types soley for use with this library is not recommended.
 
 The "good" RPi displays are the [MHS-4.0 inch Display-B type ST7796](http://www.lcdwiki.com/MHS-4.0inch_Display-B) and [Waveshare 3.5 inch ILI9486 Type C](https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(C)) displays are supported and provides good performance. These have a dedicated controller and can be clocked at up to 80MHz with the ESP32 (55MHz with STM32 and 40MHz with ESP8266).
 
