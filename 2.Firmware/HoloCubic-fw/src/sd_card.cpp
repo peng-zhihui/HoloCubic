@@ -141,6 +141,7 @@ String SdCard::readFileLine(const char *path, int num = 1)
                 *(p++) = '\0';
                 String s(buf);
                 s.trim();
+                file.close();
                 return s;
             }
         } else if (num == 1)
