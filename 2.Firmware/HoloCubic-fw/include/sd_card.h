@@ -3,7 +3,7 @@
 
 #include "FS.h"
 #include "SD.h"
-#include "SPI.h"
+#include <SPI.h>
  
 class SdCard
 {
