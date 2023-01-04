@@ -2,7 +2,7 @@
 
 # HoloCubic--多功能透明显示屏桌面站
 
-**视频介绍：** https://www.bilibili.com/video/BV1VA411p7MD/
+**视频介绍：** [【自制】如何制作一个赛博朋克风格的 百大UP奖杯 【软核】](https://www.bilibili.com/video/BV1VA411p7MD/)
 
 ## 0. 关于本项目
 
